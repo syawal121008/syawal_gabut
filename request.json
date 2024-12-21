@@ -1,0 +1,11 @@
+{
+    "message": "Add initial files",
+    "content": "{BASE64_ENCODED_CONTENT}",
+    "branch": "main"
+  }
+
+
+  curl -X PUT -H "Authorization: token YOUR_PERSONAL_ACCESS_TOKEN" \
+-H "Content-Type: application/json" \
+-d @request.json \
+https://api.github.com/repos/username/repository-name/contents/filename.ext
